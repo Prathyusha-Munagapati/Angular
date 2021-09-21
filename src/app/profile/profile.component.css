@@ -1,0 +1,17 @@
+div{
+        margin: auto;
+        width: 50%;
+        border: 3px solid rgb(19, 5, 70);
+        padding: 20px;
+        height: 132px;
+      }
+p{
+    color:rgb(61, 16, 112);
+    font-family: cursive;
+    font-weight: 50px;
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Remove</th>
+        <th>View</th>
+    </tr>
+    <tr *ngFor = "let i of list">
+        <td>{{i.name}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.pswd}}</td>
+        <td><button mat-button (click) = "Remove(i)">Remove</button></td>
+        <td><button mat-button style="color:rgb(55, 145, 55)" (click) = "view(i)" >view</button></td>
+    </tr>
+</table>

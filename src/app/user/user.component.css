@@ -1,0 +1,31 @@
+table{
+    font-family:arial, sans-serif;
+    border-collapse: collapse;
+    width:80%;
+    margin-left: 100px;
+
+}
+td,th{
+    border:2px solid #c3b8b89d;
+    text-align:left;
+    padding: 20px;
+    color:rgb(53, 53, 224);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+tr:nth-child(even)
+{
+    background-color:#c3b8b89d;
+
+}
+button{
+    border-radius: 5px;;
+    color:crimson;
+}
+thead{
+    font-size:120%;
+    color:navy
+}
+th{
+    color:rgb(101, 49, 128);
+    font-family:cursive
+}

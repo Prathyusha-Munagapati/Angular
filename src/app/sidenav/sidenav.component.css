@@ -1,0 +1,63 @@
+.spacer{
+    flex: 1 1 auto;
+}
+a:hover{
+    color:rosybrown;
+
+}
+a{
+    color:rosybrown
+}
+mat-sidenav
+{
+    margin: 1px;
+    width: 185px;
+    background-color: #30107d;
+    color: rosybrown;
+    border-right: none;
+    text-align: center;
+}
+mat-sidenav-container
+{
+    height: calc(100vh - 65px);
+    
+}
+.menu-button
+{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    justify-content: space-between;
+    background-color:#30107d;
+    color:rosybrown;
+    
+
+}
+.menu-button:hover
+{
+    color:rgb(250, 108, 127);
+}
+img
+{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    background-color:#30107d;
+}
+#id
+{
+    font-size: large;
+    color: rosybrown;
+}
+mat-toolbar
+{
+    background-color: #30107d;
+    height: 50px;
+
+}
+mat-raised-button
+{
+    background-color: pink;;
+}
